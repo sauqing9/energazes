@@ -1,0 +1,759 @@
+/* Custom CSS for EnerGaze */
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../assets/fonts/GothamBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../assets/fonts/GothamBook.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GothamUltra';
+    src: url('../assets/fonts/GothamUltra.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SFProDisplayRegular';
+    src: url('../assets/fonts/SFProDisplayRegular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SFProSemibold';
+    src: url('../assets/fonts/SFProSemibold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'DigitalNumbersRegular';
+    src: url('../assets/fonts/DigitalNumbersRegular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotRoc';
+    src: url('../assets/fonts/RobotRoc.otf') format('truetype');
+}
+
+body {
+    background: linear-gradient(to bottom, #F6ECD3, #EFE0BF);
+}
+
+/* HOMEPAGE.html */
+#home {
+    background: linear-gradient(to bottom, #F6ECD3, #EFE0BF);
+    margin-top: 30px;
+    height: 60rem;
+}
+
+#about {
+    background: linear-gradient(to bottom, #EFE0BF, #F6ECD3);
+    height: 45rem;
+}
+
+#romusa {
+    background: linear-gradient(to bottom, #F6ECD3, #EFE0BF);
+    height: 55rem;
+}
+
+#monitoring {
+    background: linear-gradient(to bottom, #EFE0BF, #F6ECD3);
+    padding-top: 50px;
+    box-shadow: inset 0 -7px 10px rgba(0, 0, 0, 0.1);
+}
+
+#questions {
+    height: 48rem;
+}
+
+.display-4 {
+    font-family: 'GothamBold', sans-serif !important;
+    margin-bottom: -20px;
+    color: black;
+}
+
+.display-2 {
+    font-family: 'GothamUltra', sans-serif !important;
+    color: black;
+}
+
+.grove-intro {
+    margin-top: -60px;
+    box-shadow: black;
+}
+
+.grove-about-img {
+    max-width: 600px; 
+}
+
+.lead {
+    font-family: 'GothamBold', sans-serif !important;
+    padding-left: 18rem;
+    padding-right: 18rem;
+}
+
+.lead2 {
+    font-family: 'GothamBook', sans-serif !important;
+    margin-bottom: -8px;
+}
+
+.btn-ask-freely {
+    font-family: 'GothamBook', sans-serif !important;
+    font-size: 14px !important;
+    padding: 0.4rem 1.25rem !important; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+    background-color: #4488EF !important;
+}
+
+.btn-go {
+    font-family: 'GothamBook', sans-serif !important;
+    font-size: 14px !important;
+    padding: 0.4rem 2.25rem !important; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+    background-color: #4488EF !important;
+}
+
+.about-title {
+    font-family: 'GothamUltra', sans-serif !important;
+}
+
+
+.paragraf-1 {
+    font-family: 'GothamBook', sans-serif !important;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+
+.team-title {
+    font-size: 30px !important;
+}
+
+.romusa-title {
+    font-size: 60px !important;
+}
+
+.romusa-desc {
+    margin-top: -8px;
+    font-size: 20px;
+    font-family: 'GothamBook', sans-serif !important;
+}
+
+.romusa-person-name {
+    font-family: 'GothamBold', sans-serif !important;
+    font-size: 18px;
+}
+.romusa-person-desc {
+    font-family: 'GothamBook', sans-serif !important;
+}
+
+.monitoring-title {
+    font-family: 'GothamBold', sans-serif !important;
+    margin-bottom: -20px;
+    color: black;
+    font-size: 50px;
+}
+
+.monitoring-grove {
+    font-family: 'GothamUltra', sans-serif !important;
+    color: black;
+    font-size: 100px;
+}
+
+.form-style {
+    max-width: 500px !important; 
+    margin-top: -11rem !important;
+}
+
+.form-control, .btn-submit {
+    width: 150% !important;
+    border-width: 0px !important;
+    border-radius: 15px !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+    font-size: 16px !important;
+    padding: 20px !important;
+    background-color: #F2F2F2 !important; 
+}
+
+
+.btn-submit {
+    margin-top: 10px !important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+    background-color: #4488EF !important;
+}
+
+.form-subject, .btn-submit {
+    font-family: 'GothamBold', sans-serif;
+}
+
+.form-question-content {
+    font-family: 'GothamBook', sans-serif;
+}
+
+.footer {
+    background: linear-gradient(to bottom, #313131, #424245);
+    padding: 20px 0;
+    box-shadow: inset 0 7px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 10rem;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer-title {
+    font-size: 3rem;
+    font-family: 'GothamUltra', sans-serif;
+    color: #e4dbc6; /* Darker color for the logo text */
+}
+
+.footer small {
+    color: #b4aa95;
+    font-size: 0.85rem;
+    font-family: 'GothamBook', sans-serif;
+}
+
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+/* Custom Button Styling */
+.ask-button,
+.btn-primary {
+    background-color: #448aff;
+    border: none;
+}
+
+.ask-button:hover,
+.btn-primary:hover {
+    background-color: #005ecb;
+}
+
+.energaze-monitoring-img {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.energaze-question-img {
+    max-width: 800px;
+}
+
+/* Centering Images and Modifying Sizes */
+.hero-image,
+.team img {
+    width: 230px;
+    height: auto;
+}
+
+.team .img-fluid {
+    max-width: 120px; /* Custom size for team member images */
+}
+
+.footer {
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+}
+
+.road-divider {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, #555 50%, transparent 50%);
+    background-size: 40px 8px;
+}
+
+
+.btn-light {
+    color: #005ecb;
+    border: 1px solid #fff;
+}
+
+.btn-light:hover {
+    background-color: #fff;
+    color: #005ecb;
+}
+
+/* monitoring.html */
+#monitoring-monitoringpage {
+    background: linear-gradient(to bottom, #F6ECD3, #FBFBFD);
+    margin-top: 13rem;
+    box-shadow: inset 0 -7px 10px rgba(0, 0, 0, 0.1);
+}
+
+#status-section {
+    background: linear-gradient(to bottom, #EFE0BF, #F6ECD3);
+}
+
+#gps {
+    background: linear-gradient(to bottom, #F6ECD3, #EFE0BF);
+}
+
+#camera {
+    background: linear-gradient(to bottom, #EFE0BF, #F6ECD3);
+}
+
+.monitoring-title-monitoringpage {
+    font-family: 'GothamBold', sans-serif !important;
+    margin-bottom: -20px;
+    color: black;
+    font-size: 50px;
+}
+
+.monitoring-grove-monitoringpage {
+    font-family: 'GothamUltra', sans-serif !important;
+    color: black;
+    font-size: 100px;
+}
+
+.status-title {
+    font-family: 'GothamUltra', sans-serif !important;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 60px;
+}
+
+.btn-status-section {
+    width: 12%;
+    left: 35%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.btn-gps-section {
+    width: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.btn-camera-section {
+    width: 12%;
+    left: 65%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.energaze-monitoring-img-monitoringpage {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+
+.battery-percentage-container {
+    width: 350px; 
+    height: 350px;
+    border-radius: 50%; 
+    margin-left: -5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.battery-percentage-title {
+    font-family: 'GothamBold', sans-serif !important;
+    color: white;
+    font-size: 20px;
+}
+
+.battery-percentage {
+    font-family: 'RobotRoc', sans-serif !important;
+    color: white;
+    font-size: 80px;
+}
+
+.dist-traveled-container {
+    background-color: #FFFAEF;
+    width: 850px; 
+    height: 350px;
+    border-radius: 10rem; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column;
+    align-items: start;
+}
+
+.distance-traveled-title {
+    font-family: 'GothamBold', sans-serif !important;
+    margin-left: 50px;
+    margin-bottom: -10px;
+    color: black;
+    font-size: 30px;
+}
+
+.distance-traveled {
+    font-family: 'RobotRoc', sans-serif !important;
+    margin-left: 50px;
+    color: black;
+    font-size: 80px;
+}
+
+.road-status {
+    width: 80rem;
+    height: 4rem;
+    margin-left: -40rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.graph-container {
+    background-color: #FFFAEF;
+    border-width: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 30rem;
+}
+
+.battery-percentage-graph-title, .distance-traveled-graph-title {
+    font-family: 'GothamBold', sans-serif !important;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.location-title {
+    font-family: 'GothamUltra', sans-serif !important;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 60px;
+}
+
+.map-container {
+    background-color: #FFFAEF;
+    border-width: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    width: 100%;
+    height: 40rem;
+}
+
+.camera-title {
+    font-family: 'GothamUltra', sans-serif !important;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 60px;
+}
+
+.camera-container {
+    background-color: #FFFAEF;
+    border-width: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    width: 100%;
+    height: 40rem;
+}
+
+@media (max-width: 932px) {
+    body {
+        background: linear-gradient(to bottom, #F6ECD3, #EFE0BF) !important;
+
+    }
+    #home, #about, #romusa, #monitoring {
+        background: transparent !important;
+    }
+
+    /* Adjust container paddings */
+    .container, .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #home {
+        margin-top: 8rem;
+    }
+
+    /* Intro Section */
+    #home .display-4 {
+        font-size: 3rem; /* Smaller font for mobile */
+        margin-bottom: -20px;
+    }
+
+    #home .display-2 {
+        font-size: 4.5rem; /* Smaller font for mobile */
+    }
+
+    .grove-intro {
+        width: 95%;
+        max-width: none; /* Allow image to fit within the mobile screen */
+        margin-top: -48px;
+    }
+
+    .lead{
+        margin-top: -10px;
+        font-size: 1.3rem !important;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .lead2 {
+        margin-top: -10px;
+        font-size: 1rem !important;
+        text-align: center;
+    }
+
+    /* About Section */
+    .grove-about-img {
+        max-width: 340px;
+        margin-top: -13rem;
+    }
+
+    .about-title {
+        margin-top: 5rem;
+        margin-left: -8rem;
+        font-size: 2.8rem;
+    }
+
+    .paragraf-1 {
+        padding-right: 0; /* Remove extra padding for text */
+        font-size: 0.9rem;
+        margin-left: -8rem;
+        margin-top: -0.5rem;
+        margin-right: -20px;
+    }
+
+    /* Team Section */
+    .team {
+        margin-top: 18rem;
+    }
+
+    .team-title {
+        font-size: 30px !important;
+    }
+    
+    .romusa-title {
+        font-size: 55px !important;
+    }
+
+    .col-2 {
+        width: 40%; /* Make team members larger on mobile */
+        margin: 10px 0; /* Add margin to space out team members */
+    }
+
+    .romusa-person-name {
+        font-size: 1rem; /* Smaller text for mobile */
+    }
+
+    .romusa-person-desc {
+        font-size: 0.8rem; /* Smaller text for mobile */
+    }
+
+    /* Monitoring Section */
+    #monitoring {
+        margin-top: 80rem;
+    }
+
+    .monitoring-title {
+        font-size: 2.3rem; /* Adjust font sizes for mobile */
+        margin-bottom: -1rem;
+    }
+
+    .monitoring-grove {
+        font-size: 4rem; /* Adjust font sizes for mobile */
+    }
+
+    .energaze-monitoring-img {
+        width: 100%;
+        max-width: none;
+        margin-top: 60px;
+    }
+
+    .energaze-question-img {
+        max-width: 400px;
+        margin-bottom: 11rem;
+    }
+
+    .form-style {
+        max-width: 100% !important; 
+        margin-top: -11rem !important;
+    }
+    
+    .form-control, .btn-submit {
+        width: 100% !important;
+        border-width: 0px !important;
+        border-radius: 15px !important;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+        font-size: 16px !important;
+        padding: 20px !important;
+        background-color: #F2F2F2 !important; 
+    }
+    
+    .btn-submit {
+        margin-top: 10px !important;
+        padding: 10px !important;
+        border-radius: 20px !important;
+        background-color: #4488EF !important;
+        margin-bottom: 20px;
+    }
+    
+    .form-subject, .btn-submit {
+        font-family: 'GothamBold', sans-serif;
+    }
+    
+    .form-question-content {
+        font-family: 'GothamBook', sans-serif;
+    }
+
+    .footer {
+        background: linear-gradient(to bottom, #313131, #424245);
+        padding: 20px 0;
+        box-shadow: inset 0 7px 10px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        height: 10rem;
+    }
+    
+    .footer .container {
+        display: flex;
+        flex-direction: column; /* Arrange items vertically */
+        align-items: center; /* Center horizontally */
+        height: 100%; /* Make container take full height of footer */
+        align-items: bottom;
+    }
+    
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.2rem;
+    }
+    
+    .logo-img {
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    .footer-title {
+        font-size: 3rem;
+        font-family: 'GothamUltra', sans-serif;
+        color: #e4dbc6; 
+        text-align: center;
+    }
+
+    .footer small {
+        color: #b4aa95;
+        font-size: 0.85rem;
+        font-family: 'GothamBook', sans-serif;
+        text-align: center;
+    }
+
+
+
+    /* monitoring.html */
+    .dist-traveled-container {
+        background-color: #FFFAEF;
+        width: 100%; 
+        height: 100%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        align-items: center;
+    }
+
+    .distance-traveled-title {
+        font-family: 'GothamBold', sans-serif !important;
+        margin-bottom: 0px;
+        color: black;
+        font-size: 20px;
+        margin-left: -4px;;
+    }
+    
+    .distance-traveled {
+        font-family: 'RobotRoc', sans-serif !important;
+        color: black;
+        font-size: 50px;
+        margin-left: -4px;;
+    }
+
+    .road-status {
+        width: 67rem;
+        height: 3rem;
+        margin-left: -40rem;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .battery-percentage-container {
+        width: 300px; 
+        height: 300px;
+        border-radius: 50%; 
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-left: 3.3rem;
+    }
+    
+    .battery-percentage-title {
+        font-family: 'GothamBold', sans-serif !important;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .battery-percentage {
+        font-family: 'RobotRoc', sans-serif !important;
+        color: white;
+        font-size: 80px;
+    }
+
+    .status-title {
+        font-family: 'GothamUltra', sans-serif !important;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: black;
+        font-size: 30px;
+    }
+
+    .location-title {
+        font-family: 'GothamUltra', sans-serif !important;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: black;
+        font-size: 30px;
+    }
+
+    .camera-title {
+        font-family: 'GothamUltra', sans-serif !important;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: black;
+        font-size: 30px;
+    }
+
+    .btn-status-section {
+        width: 35%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    
+    .btn-gps-section {
+        width: 35%;
+        left: 50%;
+        top: 35%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    
+    .btn-camera-section {
+        width: 35%;
+        left: 50%;
+        top: 42.5%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    .energaze-monitoring-img-monitoringpage {
+        width: 100%;
+        max-width: none;
+        margin-top: 10rem;
+    }
+}
